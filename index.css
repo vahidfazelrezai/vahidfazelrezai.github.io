@@ -29,27 +29,41 @@ body {
     background: #002436;
 }
 
-.page-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+/* desktop */
+@media (min-width: 768px) {
+    .page-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 100px;
+    }
 }
 
+/* mobile */
+@media (max-width: 768px) {
+    .page-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+}
 
 /*
 portrait and name attributes
 */
 
 .portrait-container {
+    width: 320px;
     height: 320px;
+    margin: auto;
 }
 
 .portrait {
     background-image: url(vahid.jpg);
-    background-size: 100%;
+    background-size: cover;
     width: 302px;
     height: 302px;
     border: 1px solid #fff;
