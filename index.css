@@ -167,8 +167,8 @@ circular button links
         width: 80px;
         height: 50px;
         text-align: center;
-        font-size: 20px;
-        line-height: 45px;
+        font-size: 22px;
+        line-height: 50px;
         margin-top: 15px;
         transition: all .15s ease-in-out;
     }
@@ -190,8 +190,8 @@ circular button links
         height: 50px;
         text-align: center;
         font-size: 20px;
-        line-height: 45px;
-        margin-top: 15px;
+        line-height: 50px;
+        margin-top: 10px;
     }
 
     .btn-link:hover,
