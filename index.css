@@ -36,7 +36,8 @@ body {
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 100px;
+        padding-top: 75px;
+        padding-bottom: 15px;
     }
 }
 
@@ -47,7 +48,8 @@ body {
         margin-left: auto;
         padding-left: 5px;
         padding-right: 5px;
-        padding-top: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
 
@@ -55,30 +57,29 @@ body {
 portrait and name attributes
 */
 
-.portrait-container {
-    width: 320px;
-    height: 320px;
-    margin: auto;
-}
-
 .portrait {
     background-image: url(vahid.jpg);
     background-size: cover;
-    width: 302px;
-    height: 302px;
     border: 1px solid #fff;
     border-radius: 25%;
     margin: auto;
 }
 
+.name {
+    font-weight: 100;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* desktop */
 @media (min-width: 768px) {
     .portrait {
+        width: 302px;
+        height: 302px;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     .portrait:hover,
     .portrait:focus,
     .portrait:active,
@@ -87,17 +88,40 @@ portrait and name attributes
         height: 308px;
         border: 4px solid #fff;
         transition: all .1s ease-in-out;
-    }   
+    }
+
+    .portrait-container {
+        width: 320px;
+        height: 320px;
+        margin: auto;
+    }
+    
+    .name {
+        font-size: 2.75em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
-.name {
-    font-size: 2.75em;
-    font-weight: 100;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+/* mobile */
+@media (max-width: 768px) {
+    .portrait {
+        width: 202px;
+        height: 202px;
+    }
 
+    .portrait-container {
+        width: 220px;
+        height: 220px;
+        margin: auto;
+    }
+
+    .name {
+        font-size: 2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
 
 /*
 list adjustments
@@ -133,19 +157,51 @@ circular button links
     font-size: 20px;
     line-height: 45px;
     margin-top: 15px;
-    font-size: 20px;
     color: #fff;
     background: 0 0;
-    transition: all .15s ease-in-out;
 }
 
-.btn-link:hover,
-.btn-link:focus,
-.btn-link:active,
-.btn-link.active {
-    border: solid 1px #fff;
-    color: #002436;
-    background: #fff;
+/* desktop */
+@media (min-width: 768px) {
+    .btn-link {
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 45px;
+        margin-top: 15px;
+        transition: all .15s ease-in-out;
+    }
+
+    .btn-link:hover,
+    .btn-link:focus,
+    .btn-link:active,
+    .btn-link.active {
+        border: solid 1px #fff;
+        color: #002436;
+        background: #fff;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .btn-link {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 45px;
+        margin-top: 15px;
+    }
+
+    .btn-link:hover,
+    .btn-link:focus,
+    .btn-link:active,
+    .btn-link.active {
+        border: solid 1px #fff;
+        color: #002436;
+        background: #fff;
+    }
 }
 
 
