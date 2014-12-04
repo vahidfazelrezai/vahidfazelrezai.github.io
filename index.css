@@ -1,0 +1,143 @@
+/*
+Chunks copied from Freelancer template: http://startbootstrap.com/template-overviews/freelancer/
+Uses FontAwesome
+MIT License
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    text-align: center;
+    color: #fff;
+    background: #123456;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/*
+portrait and name attributes
+*/
+.portrait {
+    width: 300px;
+    height: 300px;
+    border: 8px solid #fff;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: 100;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*
+list adjustments
+*/
+ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/*
+circular button links
+*/
+.btn-link {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .1s ease-in-out;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active,
+.btn-link.active {
+    border: solid 2px #fff;
+    color: #123456;
+    background: #fff;
+}
+
+
+/*
+FontAwesome icons
+*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-file-o:before {
+  content: "\f016";
+}
