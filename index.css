@@ -48,14 +48,12 @@ portrait and name attributes
 }
 
 .portrait {
+    background-image: url(vahid.jpg);
+    background-size: 100%;
     width: 302px;
     height: 302px;
     border: 1px solid #fff;
     border-radius: 25%;
-    margin: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     margin: auto;
 }
 
