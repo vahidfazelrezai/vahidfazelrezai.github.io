@@ -26,7 +26,9 @@ body {
     overflow-x: hidden;
     text-align: center;
     color: #fff;
-    background: #002436;
+    /* Background pattern from subtlepatterns.com */
+    background-image: url(background.png);
+    /*background: #002436;*/
 }
 
 /* desktop */
