@@ -1,0 +1,167 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: #aaa;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px black;
+}
+
+.portrait {
+  height: 100%;
+  border: solid 2px black;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+
+
+.name {
+  background-color: #FFFFFF;
+  font-size: 34px;
+  text-align: center;
+  padding: 15px;
+  border: solid 2px black;
+  cursor: default;
+}
+
+
+.buttons {
+  width: 150px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.btn {
+  min-width: 50%;
+  height: 50%;
+  flex: 1;
+  font-size: 32px;
+  display: flex;
+  background-color: #aaa;
+}
+.btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-content {
+  margin: auto;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-file:before {
+  content: "\f15b";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+
+
+.project {
+  min-height: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.project a:link,
+.project a:visited,
+.project a:hover,
+.project a:active {
+    color: #000;
+}
+
+.project:hover {
+  background-color: #a42;
+  color: #fff;
+}
+.project:hover a:link,
+.project:hover a:visited,
+.project:hover a:hover,
+.project:hover a:active {
+    color: #ff8;
+}
+
+.project-name {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  /*flex: 1;*/
+}
+
+.project-description {
+  padding-left: 10%;
+  padding-right: 10%;
+  /*flex: 1;*/
+  /*display: none;*/
+}
+
+
+
+.fleek {
+  background-color: #FFADCD;
+}
+
+.blurtians {
+  background-color: #CDADFF;
+}
+
+.primes {
+  background-color: #ADFEC2;
+}
+
+.hmmt {
+  background-color: #FACDAA;
+}
+
+.stackoverflow {
+  background-color: #ADFFFE;
+}
+
+.emcc {
+  background-color: #DABACD;
+}
+
