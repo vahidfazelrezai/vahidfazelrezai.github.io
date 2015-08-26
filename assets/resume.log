@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 AUG 2015 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 AUG 2015 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,7 +306,7 @@ Package marginnote Info: right page because not two side mode on input line 189
 .
 Package marginnote Info: xpos seems to be 86.72377pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 189.
-Package marginnote Info: Margin note 1.8 is on absolute page 1
+Package marginnote Info: Margin note 1.8 is on absolute page 2
 (marginnote)              on input line 194.
 Package marginnote Info: right page because not two side mode on input line 194
 .
@@ -315,7 +315,11 @@ Package marginnote Info: xpos seems to be 86.72377pt,
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./resume.aux) ) 
+(./resume.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  1946 strings out of 493117
  29424 string characters out of 6135433
@@ -324,13 +328,13 @@ Here is how much of TeX's memory you used:
  16364 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,6n,34p,223b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/universalis
-/unvsl_sjpjw4.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/arkandis/univ
-ersalis/UniversalisADFStd-Bold.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/arkandis/universalis/UniversalisADFStd-Italic.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/arkandis/universalis/UniversalisADFStd-Regular.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (1 page, 53177 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/universalis/unvsl_sjpjw4.
+enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/arkandis/universalis/Univer
+salisADFStd-Bold.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arkandis/u
+niversalis/UniversalisADFStd-Italic.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/arkandis/universalis/UniversalisADFStd-Regular.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on resume.pdf (1 page, 53173 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
