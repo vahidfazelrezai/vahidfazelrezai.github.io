@@ -115,14 +115,14 @@ img {
 }
 
 .project:hover {
-  background-color: #a42;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 .project:hover a:link,
 .project:hover a:visited,
 .project:hover a:hover,
 .project:hover a:active {
-    color: #ff8;
+    color: #c24;
 }
 
 .project-name {
@@ -164,4 +164,3 @@ img {
 .emcc {
   background-color: #DABACD;
 }
-

@@ -1,1 +1,1 @@
-$(".collapse").children("project-description").css("display","none"),$(".expand").children("project-description").css("display","inline");
+$(".collapse").children("project-description").css("display","none"),$(".expande").children("project-description").css("display","inline");
