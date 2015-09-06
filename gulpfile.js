@@ -18,7 +18,7 @@ gulp.task('resume', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./assets/style.css', ['css']);
+    gulp.watch('./assets/scss/**/*.scss', ['css']);
     gulp.watch('./assets/resume/resume.pdf', ['resume']);
 });
 

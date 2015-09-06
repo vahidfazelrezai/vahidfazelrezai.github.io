@@ -1,0 +1,77 @@
+$color1: #FFADCD;
+$color2: #CDADFF;
+$color3: #E7ECD7;
+$color4: #FACDAA;
+$color5: #D0EAF6;
+$color6: #E8B1B5;
+
+.projects {
+    flex: 1;
+    border-bottom: solid 2px black;
+    display: flex;
+    flex-direction: column;
+
+    .project {
+        min-height: 50px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .project a:link,
+    .project a:visited,
+    .project a:hover,
+    .project a:active {
+        color: #000;
+    }
+
+    .project:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    .project:hover a:link,
+    .project:hover a:visited,
+    .project:hover a:hover,
+    .project:hover a:active {
+        color: #c24;
+    }
+
+    .project-name {
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .project-description {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+
+    .fleek {
+        background-color: $color1;
+    }
+
+    .blurtians {
+        background-color: $color2;
+    }
+
+    .primes {
+        background-color: $color3;
+    }
+
+    .hmmt {
+        background-color: $color4;
+    }
+
+    .stackoverflow {
+        background-color: $color5;
+    }
+
+    .emcc {
+        background-color: $color6;
+    }
+
+}
