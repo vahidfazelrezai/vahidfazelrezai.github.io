@@ -1,27 +1,25 @@
 var gulp = require('gulp');
 var rename = require('gulp-rename');
-var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
-var minifyCss = require('gulp-minify-css');
-
-gulp.task('js', function() {
-    return gulp.src('assets/script.js')
-        .pipe(uglify())
-        .pipe(rename('script.dist.js'))
-        .pipe(gulp.dest('assets'));
-});
+var sass = require('gulp-sass');
 
 gulp.task('css', function() {
-  return gulp.src('assets/style.css')
-      .pipe(autoprefixer())
-      .pipe(minifyCss())
-      .pipe(rename('style.dist.css'))
-      .pipe(gulp.dest('assets'));
+    gulp.src('./assets/scss/**/*.scss')
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('./assets/css'));
+});
+
+gulp.task('resume', function() {
+    gulp.src('./assets/resume/resume.pdf')
+        .pipe(gulp.dest('.'));
+    gulp.src('./assets/resume/resume.pdf')
+        .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('watch', function() {
-    gulp.watch('assets/script.js', ['js']);
-    gulp.watch('assets/style.css', ['css']);
+    gulp.watch('./assets/style.css', ['css']);
+    gulp.watch('./assets/resume/resume.pdf', ['resume']);
 });
 
-gulp.task('default', ['js', 'css', 'watch']);
+gulp.task('default', ['css', 'resume', 'watch']);
