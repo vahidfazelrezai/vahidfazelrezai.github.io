@@ -9,10 +9,11 @@ $color6: #E8B1B5;
     flex: 1;
     border-bottom: solid 2px black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     .project {
-        min-height: 50px;
+        min-width: 33%;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -41,6 +42,7 @@ $color6: #E8B1B5;
         font-size: 16pt;
         font-weight: bold;
         text-align: center;
+        padding-bottom: 10px;
     }
 
     .project-description {
