@@ -5,14 +5,23 @@
     align-items: center;
     border-bottom: solid 2px black;
 
+    .portrait-container {
+        width: 225px;
+    }
+
     .portrait {
-        height: 100%;
+        width: 150px;
         border: solid 2px black;
     }
 
     img {
+        padding-top: 4px;
         max-width:100%;
         max-height:100%;
+    }
+
+    .spacer {
+        width: 0px;
     }
 
     .name {
@@ -25,7 +34,7 @@
     }
 
     .buttons {
-        width: 150px;
+        width: 225px;
         text-align: center;
         height: 100%;
         display: flex;
@@ -33,7 +42,7 @@
     }
 
     .button {
-        min-width: 50%;
+        min-width: 33%;
         height: 50%;
         flex: 1;
         font-size: 32px;
@@ -69,6 +78,9 @@
     }
     .fa-envelope:before {
         content: "\f0e0";
+    }
+    .fa-calendar:before {
+        content: "\f073"
     }
 
 }
