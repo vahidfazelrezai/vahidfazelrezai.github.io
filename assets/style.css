@@ -59,11 +59,11 @@ body {
 /* project segment */
 
 .odd.project {
-    background-color: rgba(20, 0, 100, 0.15);
+    background-color: rgba(20, 0, 100, 0.1);
 }
 
 .even.project {
-    background-color: rgba(100, 0, 20, 0.15);
+    background-color: rgba(100, 0, 20, 0.1);
 }
 
 .project-title {
@@ -82,4 +82,8 @@ body {
 
 .fitted.divider {
     padding-bottom: 5px;
+}
+
+.project .label {
+    background-color: rgba(20, 20, 20, 0.1) !important;
 }
