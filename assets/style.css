@@ -1,0 +1,88 @@
+/* font */
+
+@import url(https://fonts.googleapis.com/css?family=Signika:400,300);
+
+*:not(i) {
+    font-family: 'Signika', sans-serif !important;
+}
+
+
+/* body */
+
+body {
+    background:
+        linear-gradient(
+          rgba(20, 0, 100, 0.45),
+          rgba(100, 0, 20, 0.45)
+        ),
+        url('./background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#page-container {
+    padding-top: 5vh;
+}
+
+
+/* profile segment */
+
+#name {
+    margin-bottom: 0;
+}
+
+#profile {
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+
+.button {
+    margin: 4px !important;
+    font-size: 1em !important;
+    min-width: 120px;
+}
+
+.button-icon {
+    font-size: 1.2em !important;
+}
+
+.button-text {
+    display: inline-block;
+    margin-top: .05em;
+}
+
+
+/* project segment */
+
+.project-title {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.project-meta {
+    float: right;
+}
+
+.odd.project {
+    background-color: rgba(20, 0, 100, 0.15);
+}
+
+.even.project {
+    background-color: rgba(100, 0, 20, 0.15);
+}
+
+.description {
+    font-weight: lighter;
+}
+
+a {
+    font-weight: normal;
+}
+
+em {
+    font-weight: lighter;
+}

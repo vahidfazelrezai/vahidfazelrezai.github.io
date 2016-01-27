@@ -1,99 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <!-- title -->
+        <title>Vahid Fazel-Rezai</title>
 
-<head>
-    <title>Vahid Fazel-Rezai</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Vahid Fazel-Rezai, MIT CS '18">
-    <link rel="icon" type="image/jpg" href="./assets/img/cover.jpg">
-    <link href="./assets/css/style.css" rel="stylesheet">
-</head>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="description" content="Vahid Fazel-Rezai, MIT CS '18">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+        <!-- twitter -->
+        <meta name="twitter:card" value="summary">
 
-  <div class="page-wrapper">
+        <!-- open graph -->
+        <meta property="og:title" content="Vahid Fazel-REzai" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://vahid.io/" />
+        <meta property="og:image" content="http://vahid.io/assets/profile.jpg" />
+        <meta property="og:description" content="Vahid Fazel-Rezai, MIT CS '18" />
 
-    <div class="header">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/favicon.ico" />
 
-        <div class="portrait-container">
-            <div class="portrait">
-                <img src="./assets/img/prof.jpg">
+        <!-- stylesheets -->
+        <link href="assets/lib/semantic.min.css" rel="stylesheet">
+        <link href="assets/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="page-container" class="ui centered stackable grid">
+
+            <!-- profile segment -->
+            <div class="ui four wide column">
+                <div class="ui center aligned segment">
+
+                    <h1 id="name">Vahid Fazel-Rezai</h1>
+                    MIT CS '18
+                    <img id="profile" class="ui bordered centered image" src="assets/profile.jpg" alt="profile" />
+
+                    <div class="ui divider"></div>
+
+                    <a href="./resume.html" class="ui icon large button">
+                        <i class="ui file icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">Resume</div>
+                    </a>
+                    <a href="./calendar.html" class="ui icon large button">
+                        <i class="ui calendar icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">Calendar</div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vahidfazelrezai" class="ui icon large button">
+                        <i class="ui linkedin icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">LinkedIn</div>
+                    </a>
+                    <a href="https://twitter.com/vahidfazelrezai" class="ui icon large button">
+                        <i class="ui twitter icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">Twitter</div>
+                    </a>
+                    <a href="https://github.com/vfazel" class="ui icon large button">
+                        <i class="ui github icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">Github</div>
+                    </a>
+                    <a href="https://medium.com/@vahidfazelrezai" class="ui icon large button">
+                        <i class="ui pencil icon button-icon"></i>&nbsp;&nbsp;
+                        <div class="button-text">Medium</div>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="name">Vahid Fazel-Rezai</div>
+            <!-- project segment -->
+            <div class="ui nine wide column">
+                <div class="ui center aligned segment">
+                    <h2>Projects</h2>
+                    <div class="ui left aligned container">
 
-        <div class="buttons">
-            <div class="button" onclick="window.location.href = 'resume.html'"><div class="button-content"><i class="fa fa-file"></i></div></div>
-            <div class="button" onclick="window.location.href = 'github.html'"><div class="button-content"><i class="fa fa-github"></i></div></div>
-            <div class="button" onclick="window.location.href = 'linkedin.html'"><div class="button-content"><i class="fa fa-linkedin"></i></div></div>
-            <div class="button" onclick="window.location.href = 'mailto:vfazel@mit.edu'"><div class="button-content"><i class="fa fa-envelope"></i></div></div>
-            <div class="button" onclick="window.location.href = 'calendar.html'"><div class="button-content"><i class="fa fa-calendar"></i></div></div>
-        </div>
+                        <div class="ui message odd project">
+                            <h3 class="project-title">Project Portal</h3>
+                            <span class="project-meta">
+                                <em><a href="https://startmit.mit.edu/">StartMIT</a></em>&nbsp;&nbsp;
+                                <div class="ui label">1/2016</div>
+                            </span>
 
-    </div>
+                            <br>
 
-    <div class="projects">
+                            <div class="description">
+                                Platform that aggregates and showcases projects across MIT to increase their visibility. Currently in development. More: <a href="https://docs.google.com/presentation/d/1mupgMhIHWMR-xHqUMbHkPC-LsFIvFNNUkx9ilOfmxVg"> pitch deck</a>
+                            </div>
+                        </div>
 
-        <div class="project collapse color1">
-            <div class="project-name">MIT Market</div>
-            <div class="project-description">
-                trying to make student projects more visible and exciting with <a href="http://www.mitmarket.com/">MIT Market</a>
+
+                        <div class="ui message even project">
+                            <h3 class="project-title">Summer Eyes</h3>
+                            <span class="project-meta">
+                                <em>personal</em>&nbsp;&nbsp;
+                                <div class="ui label">12/2015</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                Website that summarizes the frequencies of HTML tags and highlights occurrences in the source code for a given URL. More: <a href="http://summereyes.me/">website</a>, <a href="https://github.com/vfazel/summereyes">repo</a>
+                            </div>
+                        </div>
+
+
+                        <div class="ui message odd project">
+                            <h3 class="project-title">Notably</h3>
+                            <span class="project-meta">
+                                <em>6.170</em>&nbsp;&nbsp;
+                                <div class="ui label">12/2015</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                Web app that allows collaborative note-taking in real time for everyone in a lecture hall. Being deployed at MIT for the spring 2016 semester. More: <a href="http://notably.xyz/">website</a>, <a href="https://github.com/kimberli/notably">repo</a>
+                            </div>
+                        </div>
+
+
+                        <div class="ui message even project">
+                            <h3 class="project-title">Reedr</h3>
+                            <span class="project-meta">
+                                <em><a href="http://yhack.org/">YHack</a></em>&nbsp;&nbsp;
+                                <div class="ui label">11/2015</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                Online speed reader tool that takes image of text and flashes single words sequentially. Minified to under 4kB. More: <a href="https://medium.com/@vahidfazelrezai/speed-reading-images-in-under-4000-characters-of-code-8cdc6f384743">blog post</a>, <a href="https://github.com/vfazel/minreedr">repo</a>
+                            </div>
+                        </div>
+
+
+                        <div class="ui message odd project">
+                            <h3 class="project-title">Fleek</h3>
+                            <span class="project-meta">
+                                <em><a href="http://6.148.scripts.mit.edu/">6.148</a></em>&nbsp;&nbsp;
+                                <div class="ui label">1/2015</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                A contest training website with a database of practice questions and the ability to track progress. More: <a href="https://github.com/mit6148-2015/fleek">repo</a>
+                            </div>
+                        </div>
+
+
+                        <div class="ui message even project">
+                            <h3 class="project-title">StackOverflow</h3>
+                            <span class="project-meta">
+                                <em><a href="http://maslab.mit.edu/">MASLAB</a></em>&nbsp;&nbsp;
+                                <div class="ui label">1/2015</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                 A robot that autonomously follows walls and stacks blocks. Designed from scratch and built from raw parts. More: <a href="https://www.youtube.com/watch?v=q5KQCgO0jhY">video</a>, <a href="https://github.com/msit18/MASLAB_Team7/tree/master/StackOverFlow2">repo</a>
+                            </div>
+                        </div>
+
+
+                        <div class="ui message odd project">
+                            <h3 class="project-title">Permutations</h3>
+                            <span class="project-meta">
+                                <em><a href="http://mit.edu/primes">PRIMES</a></em>&nbsp;&nbsp;
+                                <div class="ui label">9/2013</div>
+                            </span>
+
+                            <br>
+
+                            <div class="description">
+                                Math research project partitioning sets of permutations based on a pattern replacement relation. Fully solves new variation of established research. More: <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i2p47/pdf">journal paper</a>, <a href="http://arxiv.org/abs/1309.4802">arXiv paper</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
+    </body>
 
-        <div class="project collapse color2">
-            <div class="project-name">ProjX</div>
-            <div class="project-description">
-                member of the committee that reviews and funds student projects, also working on the <a href="http://projx.mit.edu/">ProjX website</a>
-            </div>
-        </div>
-
-        <div class="project collapse color3">
-          <div class="project-name">HMMT</div>
-          <div class="project-description">
-            webmaster of the <a href="http://hmmt.mit.edu">Harvard-MIT Math Tournament</a>
-          </div>
-        </div>
-
-        <div class="project collapsed color4">
-            <div class="project-name">fleek</div>
-            <div class="project-description">
-                <a href="http://6.470.scripts.mit.edu/2015/webby/fleek">fleek</a>, a contest practice website a couple friends and I made
-            </div>
-        </div>
-
-        <div class="project collapse color5">
-            <div class="project-name">StackOverflow</div>
-            <div class="project-description">
-                <a href="https://www.youtube.com/watch?v=q5KQCgO0jhY">video</a> and <a href="https://github.com/msit18/MASLAB_Team7/tree/master/StackOverFlow2">source code</a> for a robot called StackOverflow, which autonomously follows walls and stacks blocks
-            </div>
-        </div>
-
-        <div class="project collapse color6">
-            <div class="project-name">PRIMES</div>
-            <div class="project-description">
-                a <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i2p47">paper</a>, also on <a href="http://arxiv.org/pdf/1309.4802v1.pdf">arXiv</a>, that came out of a math project I did in high school
-            </div>
-        </div>
-
-    </div>
-
-  </div>
-
-</body>
-
-<scirpt src="./assets/js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57647806-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-</script>
-
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/semantic.min.js"></script>
 </html>
