@@ -35,7 +35,7 @@ body {
 
 #profile {
     text-align: center;
-    width: 70%;
+    width: 60%;
     margin-top: 10px;
     margin-bottom: 19px;
 }
@@ -43,7 +43,7 @@ body {
 .button {
     margin: 4px !important;
     font-size: 1em !important;
-    min-width: 120px;
+    min-width: 150px;
 }
 
 .button-icon {
@@ -58,6 +58,14 @@ body {
 
 /* project segment */
 
+.odd.project {
+    background-color: rgba(20, 0, 100, 0.15);
+}
+
+.even.project {
+    background-color: rgba(100, 0, 20, 0.15);
+}
+
 .project-title {
     display: inline-block;
     font-weight: bold;
@@ -67,22 +75,11 @@ body {
     float: right;
 }
 
-.odd.project {
-    background-color: rgba(20, 0, 100, 0.15);
-}
-
-.even.project {
-    background-color: rgba(100, 0, 20, 0.15);
-}
-
 .description {
     font-weight: lighter;
+    padding-bottom: 5px;
 }
 
-a {
-    font-weight: normal;
-}
-
-em {
-    font-weight: lighter;
+.fitted.divider {
+    padding-bottom: 5px;
 }
