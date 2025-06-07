@@ -51,6 +51,7 @@ body {
     width: 60%;
     margin-top: 10px;
     margin-bottom: 19px;
+    border-radius: 4px;
 }
 
 .button {
